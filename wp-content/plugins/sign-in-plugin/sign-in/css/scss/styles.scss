@@ -1,0 +1,26 @@
+@import "variables";
+
+@import "registration";
+@import "overlays";
+@import "forms";
+@import "panels";
+@import "buttons";
+@import "table";
+@import "tabs";
+
+.aasgnn a {
+	color: $primary-color;
+
+	&:visited {
+		color: $primary-color;
+	}
+}
+
+.qr-code {
+    width: 180px;
+    height: 180px;
+}
+
+.pdf-preview {
+    height: 180px;
+}

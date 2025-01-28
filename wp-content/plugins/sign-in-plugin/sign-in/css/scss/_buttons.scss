@@ -1,0 +1,117 @@
+@import "variables";
+
+.aasgnn {
+    .btn {
+        font-family: Soleil;
+        border-radius: 0;
+        border: none;
+        line-height: normal;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        background-color: $primary-color;
+        color: $quinary-color;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &:focus-visible {
+            background-color: darken($primary-color, 10%) !important;
+        }
+    }
+
+    .btn-tertiary {
+        background-color: $tertiary-color;
+        color: $quinary-color;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &:focus-visible {
+            background-color: darken($tertiary-color, 10%) !important;
+            color: $quinary-color;
+        }
+    }
+
+    .btn-menu {
+        background-color: transparent;
+        color: $primary-color;
+        border: solid 2px #fff;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &:focus-visible {
+            background-color: darken(#fff, 10%) !important;
+            border-color: #fff;
+            color: $primary-color;
+        }
+
+        &:visited {
+            color: $primary-color;
+        }
+
+        &.active {
+            border: none;
+            background-color: $primary-color;
+            color: #fff;
+
+            &:hover,
+            &:focus,
+            &:active,
+            &:focus-visible {
+                background-color: darken($primary-color, 10%) !important;
+                color: #fff;
+            }
+        }
+    }
+
+    .btn-red {
+        background-color: #f00;
+        color: #fff;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &:focus-visible {
+            background-color: darken(#f00, 10%) !important;
+            color: #fff;
+        }
+    }
+
+    .btn-large {
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 1rem 2.5rem;
+    }
+
+    .btn-medium {
+        font-size: 1.25rem;
+        font-weight: 700;
+        padding: 1rem 2rem;
+    }
+
+    .circle-arrow-button {
+        width: 27px;
+        height: 27px;
+        display: block;
+        margin-left: auto;
+    }
+
+    .create-event-mobile {
+        display: none;
+        margin: 0 auto 1rem auto;
+    }
+
+    @media screen and (max-width: 768px) {
+        .create-event-mobile {
+            display: inline-block;
+        }
+    }
+
+    .button-container {
+        align-items: center;
+    }
+}
