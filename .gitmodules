@@ -1,3 +1,6 @@
 [submodule "wp-content/plugins/sign-in"]
 	path = wp-content/plugins/sign-in
 	url = https://github.com/phucitol/sign-in-plugin.git
+[submodule "wp-content/plugins/user-moderation"]
+	path = wp-content/plugins/user-moderation
+	url = https://github.com/phucitol/user-moderation-plugin.git
